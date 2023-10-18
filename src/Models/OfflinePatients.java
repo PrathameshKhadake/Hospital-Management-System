@@ -33,12 +33,17 @@ public class OfflinePatients implements Patient {
 
     }
 
+    public String patientID(){
+        return patientID;
+    }
+
+    public String getPatientName(){
+        return patientName;
+    }
+
     public void getMyBedNo(){
 
         System.out.println("Bed Number: " + patientBedNo);
     }
 
-    public void assignMyDoctor(){
-
-    }
 }

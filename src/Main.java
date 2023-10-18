@@ -10,5 +10,7 @@ public class Main {
         h.getTotalNoOfBeds();
         h.getHospitalPhoneNo();
 
+        h.appointDoctor("Prathamesh", "MBBS CGO", 25, "Male", "cardiologist");
+
     }
 }
